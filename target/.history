@@ -1,0 +1,28 @@
+idea with-sources=yes
+exit
+cucumber
+exit
+test
+exit
+idea
+clear
+exit
+test
+idea
+exit
+idea
+exit
+idea
+exit
+idea
+test
+exit
+compile
+cd ..
+exit
+idea
+exit
+idea
+compile
+cd ..
+exit
