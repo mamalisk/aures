@@ -9,15 +9,15 @@
 		extra-scalaVersion="2.9.2"
 		conf="runtime-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130507113100"/>
+		date="20130508140940"/>
 	<dependencies>
-		<module organisation="templemore" name="sbt-cucumber-plugin">
-			<revision name="0.7.2" status="release" pubdate="20121213144139" resolver="Templemore Repository" artresolver="Templemore Repository" homepage="" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="58">
-				<metadata-artifact status="successful" details="" size="1166" time="183" location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml" searched="true" original-local-location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml.original" origin-is-local="false" origin-location="http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom"/>
-				<caller organisation="default" name="default-2a6028" conf="optional, compile, runtime, runtime-internal" rev="0.7.2" rev-constraint-default="0.7.2" rev-constraint-dynamic="0.7.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
+		<module organisation="templemore" name="xsbt-cucumber-plugin">
+			<revision name="0.6.2" status="release" pubdate="20121026232216" resolver="Templemore Repository" artresolver="Templemore Repository" homepage="" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="58">
+				<metadata-artifact status="successful" details="" size="1451" time="51" location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml" searched="true" original-local-location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml.original" origin-is-local="false" origin-location="http://templemore.co.uk/repo/templemore/xsbt-cucumber-plugin_2.9.2_0.12/0.6.2/xsbt-cucumber-plugin-0.6.2.pom"/>
+				<caller organisation="default" name="default-2a6028" conf="optional, compile, runtime, runtime-internal" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="0.1-SNAPSHOT" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2"/>
 				<artifacts>
-					<artifact name="sbt-cucumber-plugin" type="jar" ext="jar" status="successful" details="" size="72411" time="697" location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/jars/sbt-cucumber-plugin-0.7.2.jar">
-						<origin-location is-local="false" location="http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar"/>
+					<artifact name="xsbt-cucumber-plugin" type="jar" ext="jar" status="successful" details="" size="71909" time="152" location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/jars/xsbt-cucumber-plugin-0.6.2.jar">
+						<origin-location is-local="false" location="http://templemore.co.uk/repo/templemore/xsbt-cucumber-plugin_2.9.2_0.12/0.6.2/xsbt-cucumber-plugin-0.6.2.jar"/>
 					</artifact>
 				</artifacts>
 			</revision>

@@ -1,13 +1,13 @@
-[0m[[0minfo[0m] [0mUpdating {file:/Users/kostasmamalis/development/visa/aures/project/}default-2a6028...[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/kostasmamalis/development/visa/messageListener/aures/project/}default-e93dfb...[0m
 [0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
-[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-2a6028;0.1-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: default#default-e93dfb;0.1-SNAPSHOT[0m
 [0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom][0m
 [0m[[0mdebug[0m] [0m	validate = true[0m
 [0m[[0mdebug[0m] [0m	refresh = false[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-plugin;2.1.0 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve play#sbt-plugin;2.1.0[0m
 [0m[[0minfo[0m] [0mResolving play#sbt-plugin;2.1.0 ...[0m
@@ -2154,101 +2154,28 @@
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbtidea#sbt-idea;1.1.1->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m	using sbt-chain to resolve templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0minfo[0m] [0mResolving templemore#sbt-cucumber-plugin;0.7.2 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: templemore#sbt-cucumber-plugin;0.7.2 {compile=[default(compile)]}[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: no ivy file found for templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: no ivy file found for templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=/Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/sbt-cucumber-plugin/scala_2.9.2/sbt_0.12/0.7.2/ivys/ivy.xml[0m
-[0m[[0mdebug[0m] [0m	local: no ivy file found for templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0mTypesafe repository: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repository: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m	Typesafe repository: no ivy file found for templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0mTemplemore Repository: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0m	 trying http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m		tried http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m	Templemore Repository: found md file for templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m		=> http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom (0.7.2)[0m
-[0m[[0mdebug[0m] [0m	parser = sbt.CustomPomParser@7919e4ac[0m
-[0m[[0mdebug[0m] [0m	no ivy file in cache for templemore#sbt-cucumber-plugin;0.7.2: tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml[0m
-[0m[[0mdebug[0m] [0mdownloading http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom ...[0m
-[0m[[0mdebug[0m] [0m	Templemore Repository: downloading http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m		to /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/ivy-0.7.2.xml.original.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom: checking...[0m
-[0m[[0mdebug[0m] [0m	Templemore Repository: downloading http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/06/7krrmbyn3_15nwrk_3nbb8wm0000gn/T/ivytmp3890058498740553054sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.pom[0m
-[0m[[0mdebug[0m] [0m	[SUCCESSFUL ] templemore#sbt-cucumber-plugin;0.7.2!sbt-cucumber-plugin.pom(pom.original) (183ms)[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://repo.typesafe.com/typesafe/ivy-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	sbt-plugin-releases: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://scalasbt.artifactoryonline.com/scalasbt/sbt-plugin-releases/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	 trying /Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m		tried /Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	local: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=/Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/sbt-cucumber-plugin/0.7.2/jars/sbt-cucumber-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m	Typesafe repository: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://repo.typesafe.com/typesafe/releases/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m	Templemore Repository: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mpublic: no namespace defined: using system[0m
-[0m[[0mdebug[0m] [0m	 trying http://repo1.maven.org/maven2/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://repo1.maven.org/maven2/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mHTTP response status: 404 url=http://repo1.maven.org/maven2/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo1.maven.org/maven2/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m	public: resource not reachable for templemore#sbt-cucumber-plugin;0.7.2: res=http://repo1.maven.org/maven2/templemore/sbt-cucumber-plugin/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m	default-cache: parsed downloaded md file for templemore#sbt-cucumber-plugin;0.7.2; parsed=templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	checking templemore#sbt-cucumber-plugin;0.7.2 from Templemore Repository against [none][0m
-[0m[[0mdebug[0m] [0m	module revision kept as first found: templemore#sbt-cucumber-plugin;0.7.2 from Templemore Repository[0m
-[0m[[0mdebug[0m] [0m	found templemore#sbt-cucumber-plugin;0.7.2 in Templemore Repository[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->templemore#xsbt-cucumber-plugin;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of templemore#xsbt-cucumber-plugin;0.6.2 of rootConf=compile[0m
+[0m[[0mdebug[0m] [0m	using sbt-chain to resolve templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0minfo[0m] [0mResolving templemore#xsbt-cucumber-plugin;0.6.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: templemore#xsbt-cucumber-plugin;0.6.2 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mNo entry is found in the ModuleDescriptorCache : /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml[0m
+[0m[[0mdebug[0m] [0mpost 1.3 ivy file: using exact as default matcher[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for templemore#xsbt-cucumber-plugin;0.6.2 (resolved by local): /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0mdebug[0m] [0mEntry is found in the ModuleDescriptorCache : /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml[0m
+[0m[[0mdebug[0m] [0m	found ivy file in cache for templemore#xsbt-cucumber-plugin;0.6.2 (resolved by local): /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml[0m
+[0m[[0mdebug[0m] [0m	typesafe-ivy-releases: revision in cache: templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0mdebug[0m] [0m	checking templemore#xsbt-cucumber-plugin;0.6.2 from local against [none][0m
+[0m[[0mdebug[0m] [0m	module revision kept as first found: templemore#xsbt-cucumber-plugin;0.6.2 from local[0m
+[0m[[0mdebug[0m] [0m	found templemore#xsbt-cucumber-plugin;0.6.2 in local[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=runtime[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-plugin;2.1.0 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#sbt-plugin;2.1.0->play#sbt-link;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-link;2.1.0 of rootConf=runtime[0m
@@ -3649,27 +3576,18 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbtidea#sbt-idea;1.1.1->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime[0m
-[0m[[0mdebug[0m] [0mruntime is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->templemore#xsbt-cucumber-plugin;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of templemore#xsbt-cucumber-plugin;0.6.2 of rootConf=runtime[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-plugin;2.1.0 of rootConf=test[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#sbt-plugin;2.1.0->play#sbt-link;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-link;2.1.0 of rootConf=test[0m
@@ -5071,21 +4989,12 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbtidea#sbt-idea;1.1.1->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test[0m
-[0m[[0mdebug[0m] [0mtest is loaded and no conf to load.  Skip loading[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->templemore#xsbt-cucumber-plugin;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of templemore#xsbt-cucumber-plugin;0.6.2 of rootConf=test[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=provided[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=provided[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#sbt;0.12.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0m	using sbt-chain to resolve org.scala-sbt#sbt;0.12.2[0m
 [0m[[0minfo[0m] [0mResolving org.scala-sbt#sbt;0.12.2 ...[0m
@@ -6384,28 +6293,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.2->org.scala-lang#scala-library;2.9.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=provided[0m
 [0m[[0mdebug[0m] [0mprovided is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=optional[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=optional[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile-internal][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile-internal][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-plugin;2.1.0 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#sbt-plugin;2.1.0->play#sbt-link;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-link;2.1.0 of rootConf=compile-internal[0m
@@ -7808,24 +7717,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbtidea#sbt-idea;1.1.1->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->templemore#xsbt-cucumber-plugin;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of templemore#xsbt-cucumber-plugin;0.6.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=compile-internal[0m
-[0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#sbt;0.12.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.2->org.scala-sbt#main;0.12.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#main;0.12.2 of rootConf=compile-internal[0m
@@ -8667,28 +8567,28 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.2->org.scala-lang#scala-library;2.9.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=compile-internal[0m
 [0m[[0mdebug[0m] [0mcompile-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [runtime-internal][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [runtime-internal][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-plugin;2.1.0 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#sbt-plugin;2.1.0->play#sbt-link;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-link;2.1.0 of rootConf=runtime-internal[0m
@@ -10091,33 +9991,24 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbtidea#sbt-idea;1.1.1->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=runtime-internal[0m
-[0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->templemore#xsbt-cucumber-plugin;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of templemore#xsbt-cucumber-plugin;0.6.2 of rootConf=runtime-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=runtime-internal[0m
 [0m[[0mdebug[0m] [0mruntime-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [test-internal][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [test][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [test-internal][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [test][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [runtime][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [runtime][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [compile][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [compile][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->play#sbt-plugin;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-plugin;2.1.0 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies play#sbt-plugin;2.1.0->play#sbt-link;2.1.0 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of play#sbt-link;2.1.0 of rootConf=test-internal[0m
@@ -11522,24 +11413,15 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies com.typesafe.sbtidea#sbt-idea;1.1.1->commons-io#commons-io;2.0.1 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of commons-io#commons-io;2.0.1 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->default(compile)][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->runtime][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->templemore#xsbt-cucumber-plugin;0.6.2 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0mloadData of templemore#xsbt-cucumber-plugin;0.6.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [optional][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->compile][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test-internal[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [provided][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->templemore#sbt-cucumber-plugin;0.7.2 [compile->master][0m
-[0m[[0mdebug[0m] [0mloadData of templemore#sbt-cucumber-plugin;0.7.2 of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [optional][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [provided][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=test-internal[0m
-[0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-sbt#sbt;0.12.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#sbt;0.12.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.2->org.scala-sbt#main;0.12.2 [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-sbt#main;0.12.2 of rootConf=test-internal[0m
@@ -12369,30 +12251,30 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies org.scala-sbt#sbt;0.12.2->org.scala-lang#scala-library;2.9.2 [compile->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->default(compile)][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->runtime][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->compile][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies default#default-2a6028;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies default#default-e93dfb;0.1-SNAPSHOT->org.scala-lang#scala-library;2.9.2 [provided->master][0m
 [0m[[0mdebug[0m] [0mloadData of org.scala-lang#scala-library;2.9.2 of rootConf=test-internal[0m
 [0m[[0mdebug[0m] [0mtest-internal is loaded and no conf to load.  Skip loading[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [plugin][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=plugin[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [plugin][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=plugin[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [sources][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=sources[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [sources][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=sources[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [docs][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=docs[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [docs][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=docs[0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-2a6028;0.1-SNAPSHOT [pom][0m
-[0m[[0mdebug[0m] [0mloadData of default#default-2a6028;0.1-SNAPSHOT of rootConf=pom[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for default#default-e93dfb;0.1-SNAPSHOT [pom][0m
+[0m[[0mdebug[0m] [0mloadData of default#default-e93dfb;0.1-SNAPSHOT of rootConf=pom[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 102[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
@@ -12779,10 +12661,10 @@
 [0m[[0mdebug[0m] [0mSort done for : commons-io#commons-io;2.0.1[0m
 [0m[[0mdebug[0m] [0mSort done for : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mSort done for : play#sbt-plugin;2.1.0[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  templemore#sbt-cucumber-plugin depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  templemore#xsbt-cucumber-plugin depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : play#sbt-link;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : play#play-exceptions;2.1.0[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : play#routes-compiler_2.9.2;2.1.0[0m
@@ -12895,19 +12777,10 @@
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in test-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in provided: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
 [0m[[0mdebug[0m] [0morg.scala-lang#scala-compiler;2.9.2 in compile-internal: excluding org.scala-lang#scala-compiler;2.9.2!scala-compiler.jar[0m
-[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/default/default-2a6028/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/default/default-e93dfb/scala_2.9.2/sbt_0.12/0.1-SNAPSHOT/resolved.xml.xml[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] play#sbt-plugin;2.1.0!sbt-plugin.jar[0m
-[0m[[0mdebug[0m] [0m	 trying http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m		tried http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0minfo[0m] [0mdownloading http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar ...[0m
-[0m[[0mdebug[0m] [0m	Templemore Repository: downloading http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0mdebug[0m] [0m		to /Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/sbt-cucumber-plugin/jars/sbt-cucumber-plugin-0.7.2.jar.part[0m
-[0m[[0mdebug[0m] [0msha1 file found for http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar: checking...[0m
-[0m[[0mdebug[0m] [0m	Templemore Repository: downloading http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar.sha1[0m
-[0m[[0mdebug[0m] [0m		to /var/folders/06/7krrmbyn3_15nwrk_3nbb8wm0000gn/T/ivytmp5823589315718359202sha1[0m
-[0m[[0mdebug[0m] [0msha1 OK for http://templemore.co.uk/repo/templemore/sbt-cucumber-plugin_2.9.2_0.12/0.7.2/sbt-cucumber-plugin-0.7.2.jar[0m
-[0m[[0minfo[0m] [0m	[SUCCESSFUL ] templemore#sbt-cucumber-plugin;0.7.2!sbt-cucumber-plugin.jar (697ms)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] templemore#xsbt-cucumber-plugin;0.6.2!xsbt-cucumber-plugin.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] play#sbt-link;2.1.0!sbt-link.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] play#play-exceptions;2.1.0!play-exceptions.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] play#routes-compiler_2.9.2;2.1.0!routes-compiler_2.9.2.jar[0m
@@ -13024,7 +12897,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.2!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.2!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 5229ms :: artifacts dl 753ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4508ms :: artifacts dl 72ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 62[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-link;2.1.0 / Number of dependencies = 1[0m
@@ -13265,10 +13138,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT compile produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/compile-resolved.xml[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT compile produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/compile-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 62[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-link;2.1.0 / Number of dependencies = 1[0m
@@ -13509,10 +13382,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT runtime produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/runtime-resolved.xml[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT runtime produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/runtime-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 62[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-link;2.1.0 / Number of dependencies = 1[0m
@@ -13753,10 +13626,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT test produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/test-resolved.xml[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT test produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/test-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 41[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#main;0.12.2 / Number of dependencies = 12[0m
@@ -13992,9 +13865,9 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0;0.12.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT provided produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/provided-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT provided produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/provided-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT optional produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/optional-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT optional produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/optional-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 102[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
@@ -14441,10 +14314,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  templemore#sbt-cucumber-plugin depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  templemore#xsbt-cucumber-plugin depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#actions;0.12.2[0m
@@ -14485,7 +14358,7 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0;0.12.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT compile-internal produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/compile-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT compile-internal produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/compile-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 62[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-link;2.1.0 / Number of dependencies = 1[0m
@@ -14726,10 +14599,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT runtime-internal produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/runtime-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT runtime-internal produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/runtime-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 102[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : org.scala-sbt#sbt;0.12.2 / Number of dependencies = 6[0m
@@ -15176,10 +15049,10 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scalaz#scalaz-core_2.9.2;6.0.4[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : com.typesafe.sbtidea#sbt-idea;1.1.1[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : commons-io#commons-io;2.0.1[0m
-[0m[[0mdebug[0m] [0mSort dependencies of : templemore#sbt-cucumber-plugin;0.7.2 / Number of dependencies = 2[0m
-[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  templemore#sbt-cucumber-plugin depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
+[0m[[0mdebug[0m] [0mSort dependencies of : templemore#xsbt-cucumber-plugin;0.6.2 / Number of dependencies = 2[0m
+[0m[[0mdebug[0m] [0mNon matching revision detected when sorting.  templemore#xsbt-cucumber-plugin depends on org.scala-sbt#sbt;0.12.0, doesn't match org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-lang#scala-library;2.9.2[0m
-[0m[[0mdebug[0m] [0mSort done for : templemore#sbt-cucumber-plugin;0.7.2[0m
+[0m[[0mdebug[0m] [0mSort done for : templemore#xsbt-cucumber-plugin;0.6.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#sbt;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#main;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#actions;0.12.2[0m
@@ -15220,14 +15093,14 @@
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#compiler-interface;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_8_2;0.12.2[0m
 [0m[[0mdebug[0m] [0mModule descriptor is processed : org.scala-sbt#precompiled-2_10_0;0.12.2[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT test-internal produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/test-internal-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT test-internal produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/test-internal-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT plugin produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/plugin-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT plugin produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/plugin-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT sources produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/sources-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT sources produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/sources-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT docs produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/docs-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT docs produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
-[0m[[0mdebug[0m] [0m	report for default#default-2a6028;0.1-SNAPSHOT pom produced in /Users/kostasmamalis/development/visa/aures/project/target/resolution-cache/reports/default-default-2a6028/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (5229ms resolve - 753ms download)[0m
+[0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT pom produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/pom-resolved.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (4508ms resolve - 72ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

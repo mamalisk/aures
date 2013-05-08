@@ -1,0 +1,25 @@
+[0m[[0minfo[0m] [0mFeature: Listening to events[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m  Scenario: Listen to a queue                                [90m# aures.feature:3[0m[0m
+[0m[[0minfo[0m] [0m    [90mGiven [0m[90mI create an event listener[0m[0m
+[0m[[0minfo[0m] [0m[1A    [33mGiven [0m[33mI create an event listener[0m[0m
+[0m[[0minfo[0m] [0m    [90mWhen [0m[90mthe expected event is raised[0m[0m
+[0m[[0minfo[0m] [0m[1A    [33mWhen [0m[33mthe expected event is raised[0m[0m
+[0m[[0minfo[0m] [0m    [90mThen [0m[90mI verify that the message is retrievable from Aures[0m[0m
+[0m[[0minfo[0m] [0m[1A    [33mThen [0m[33mI verify that the message is retrievable from Aures[0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mYou can implement missing steps with the snippets below:[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mGiven("""^I create an event listener$"""){ () =>[0m
+[0m[[0minfo[0m] [0m  //// Express the Regexp above with the code you wish you had[0m
+[0m[[0minfo[0m] [0m  throw new PendingException()[0m
+[0m[[0minfo[0m] [0m}[0m
+[0m[[0minfo[0m] [0mWhen("""^the expected event is raised$"""){ () =>[0m
+[0m[[0minfo[0m] [0m  //// Express the Regexp above with the code you wish you had[0m
+[0m[[0minfo[0m] [0m  throw new PendingException()[0m
+[0m[[0minfo[0m] [0m}[0m
+[0m[[0minfo[0m] [0mThen("""^I verify that the message is retrievable from Aures$"""){ () =>[0m
+[0m[[0minfo[0m] [0m  //// Express the Regexp above with the code you wish you had[0m
+[0m[[0minfo[0m] [0m  throw new PendingException()[0m
+[0m[[0minfo[0m] [0m}[0m

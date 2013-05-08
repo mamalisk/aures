@@ -1,0 +1,8 @@
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/aures-build.iml" filepath="$PROJECT_DIR$/.idea_modules/aures-build.iml" ></module>
+      <module fileurl="file://$PROJECT_DIR$/.idea_modules/aures.iml" filepath="$PROJECT_DIR$/.idea_modules/aures.iml" ></module>
+    </modules>
+  </component>
+</project>

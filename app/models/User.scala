@@ -17,9 +17,9 @@ case class User (
 
 object User extends ModelCompanion[User, ObjectId]{
 
-  val files = gridFS("UserFiles")
+  lazy val files = gridFS("UserFiles")
 
-  val dao = new SalatDAO[User, ObjectId](collection = mongoCollection("users")) {}
+  lazy val dao = new SalatDAO[User, ObjectId](collection = mongoCollection("users")) {}
 
   def findOneByUsername(username: String): Option[User] = dao.findOne(MongoDBObject("username" -> username))
 

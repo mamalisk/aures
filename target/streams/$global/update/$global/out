@@ -1,2 +1,4 @@
-[0m[[33mwarn[0m] [0mPotentially incompatible versions of dependencies of {file:/Users/kostasmamalis/development/visa/aures/}aures:[0m
+[0m[[0minfo[0m] [0mUpdating {file:/Users/kostasmamalis/development/visa/messageListener/aures/}aures...[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
+[0m[[33mwarn[0m] [0mPotentially incompatible versions of dependencies of {file:/Users/kostasmamalis/development/visa/messageListener/aures/}aures:[0m
 [0m[[33mwarn[0m] [0m   org.scala-lang: 2.9.2, 2.9.1[0m

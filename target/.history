@@ -26,3 +26,17 @@ idea
 compile
 cd ..
 exit
+idea
+exit
+compile
+cucumber
+clean
+compile
+cucumber
+idea
+cucumber
+clear
+clean
+compile
+idea
+exit

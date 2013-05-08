@@ -7,8 +7,19 @@
 		revision="1.0-SNAPSHOT"
 		conf="compile-internal"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom"
-		date="20130507124542"/>
+		date="20130508142707"/>
 	<dependencies>
+		<module organisation="templemore" name="xsbt-cucumber-plugin">
+			<revision name="0.6.2" status="release" pubdate="20121026231254" resolver="local" artresolver="local" extra-sbtVersion="0.12" extra-scalaVersion="2.9.2" downloaded="false" searched="true" default="false" conf="default(compile), compile" position="71">
+				<metadata-artifact status="no" details="" size="1913" time="0" location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/ivy-0.6.2.xml" searched="true" original-local-location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/xsbt-cucumber-plugin/0.6.2/ivys/ivy.xml" origin-is-local="true" origin-location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/repository/local/templemore/xsbt-cucumber-plugin/0.6.2/ivys/ivy.xml"/>
+				<caller organisation="aures" name="aures_2.10" conf="optional, compile, provided, compile-internal" rev="0.6.2" rev-constraint-default="0.6.2" rev-constraint-dynamic="0.6.2" callerrev="1.0-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="xsbt-cucumber-plugin" type="jar" ext="jar" status="no" details="" size="71909" time="0" location="/Users/kostasmamalis/Downloads/devtools/play-2.1.0/framework/../repository/cache/scala_2.9.2/sbt_0.12/templemore/xsbt-cucumber-plugin/jars/xsbt-cucumber-plugin-0.6.2.jar">
+						<origin-location is-local="false" location="http://templemore.co.uk/repo/templemore/xsbt-cucumber-plugin_2.9.2_0.12/0.6.2/xsbt-cucumber-plugin-0.6.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
 		<module organisation="org.scala-lang" name="scala-compiler">
 			<revision name="2.10.0" status="release" pubdate="20121219202948" resolver="local" artresolver="local" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="56">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html    "/>

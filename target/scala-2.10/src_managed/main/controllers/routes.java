@@ -1,6 +1,6 @@
-// @SOURCE:/Users/kostasmamalis/development/visa/aures/conf/routes
+// @SOURCE:/Users/kostasmamalis/development/visa/messageListener/aures/conf/routes
 // @HASH:f904f23acbfbb0ded1d9ae85b262187e14e562de
-// @DATE:Tue May 07 11:39:08 BST 2013
+// @DATE:Wed May 08 14:05:58 BST 2013
 
 package controllers;
 
