@@ -1,6 +1,6 @@
-// @SOURCE:/Users/kostasmamalis/development/visa/messageListener/aures/conf/routes
+// @SOURCE:/Users/kostasmamalis/development/visa/aures/conf/routes
 // @HASH:f904f23acbfbb0ded1d9ae85b262187e14e562de
-// @DATE:Wed May 08 14:05:58 BST 2013
+// @DATE:Tue May 07 11:39:08 BST 2013
 
 import Routes.{prefix => _prefix, defaultPrefix => _defaultPrefix}
 import play.core._
@@ -8,7 +8,7 @@ import play.core.Router._
 import play.core.j._
 
 import play.api.mvc._
-import se.radley.plugin.salat.Binders._
+
 
 import Router.queryString
 

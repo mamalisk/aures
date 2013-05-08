@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" tests="1">
-<testcase classname="Listening to events" name="Listen to a queue" time="0">
-<skipped><![CDATA[Given I create an event listener......................................................undefined
-When the expected event is raised......................................................undefined
-Then I verify that the message is retrievable from Aures..........................................undefined
+<testcase classname="Listening to events" name="Listen to a queue" time="0.124442">
+<skipped><![CDATA[Given I create an event listener......................................................pending
+When the expected event is raised......................................................skipped
+Then I verify that the message is retrievable from Aures..........................................skipped
 ]]></skipped>
 </testcase>
 </testsuite>

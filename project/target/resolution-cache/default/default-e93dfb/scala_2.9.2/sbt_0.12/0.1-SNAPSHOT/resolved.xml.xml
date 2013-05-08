@@ -4,7 +4,7 @@
 		module="default-e93dfb"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20130508142658"
+		publication="20130508144747"
 		e:scalaVersion="2.9.2" e:sbtVersion="0.12"
 	>
 		<description>

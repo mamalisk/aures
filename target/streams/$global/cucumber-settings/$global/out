@@ -1,25 +1,49 @@
 [0m[[0minfo[0m] [0mFeature: Listening to events[0m
 [0m[[0minfo[0m] [0m[0m
 [0m[[0minfo[0m] [0m  Scenario: Listen to a queue                                [90m# aures.feature:3[0m[0m
-[0m[[0minfo[0m] [0m    [90mGiven [0m[90mI create an event listener[0m[0m
-[0m[[0minfo[0m] [0m[1A    [33mGiven [0m[33mI create an event listener[0m[0m
-[0m[[0minfo[0m] [0m    [90mWhen [0m[90mthe expected event is raised[0m[0m
-[0m[[0minfo[0m] [0m[1A    [33mWhen [0m[33mthe expected event is raised[0m[0m
-[0m[[0minfo[0m] [0m    [90mThen [0m[90mI verify that the message is retrievable from Aures[0m[0m
-[0m[[0minfo[0m] [0m[1A    [33mThen [0m[33mI verify that the message is retrievable from Aures[0m[0m
+[0m[[0minfo[0m] [0m    [90mGiven [0m[90mI create an event listener[0m                         [90m# aures_step.scala:9[0m[0m
+[0m[[0minfo[0m] [0mGiven[0m
+[0m[[0minfo[0m] [0m[1A    [33mGiven [0m[33mI create an event listener[0m                         [90m# aures_step.scala:9[0m[0m
+[0m[[0minfo[0m] [0m      [31mcucumber.runtime.PendingException: TODO: implement me[0m
+[0m[[0minfo[0m] [0m      	at features.aures_step$$anonfun$1.apply(aures_step.scala:12)[0m
+[0m[[0minfo[0m] [0m      	at features.aures_step$$anonfun$1.apply(aures_step.scala:10)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.api.scala.ScalaDsl$StepBody$$anonfun$apply$23.applyOrElse(ScalaDsl.scala:55)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.api.scala.ScalaDsl$StepBody$$anonfun$apply$23.applyOrElse(ScalaDsl.scala:55)[0m
+[0m[[0minfo[0m] [0m      	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.scala.ScalaStepDefinition.execute(ScalaStepDefinition.scala:27)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.Runtime.runStep(Runtime.java:267)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.Runtime.run(Runtime.java:105)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.runtime.Runtime.run(Runtime.java:93)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.api.cli.Main.run(Main.java:20)[0m
+[0m[[0minfo[0m] [0m      	at cucumber.api.cli.Main.main(Main.java:12)[0m
+[0m[[0minfo[0m] [0m      	at ✽.Given I create an event listener(aures.feature:4)[0m
+[0m[[0minfo[0m] [0m      [0m[0m
+[0m[[0minfo[0m] [0m    [90mWhen [0m[90mthe expected event is raised[0m                        [90m# aures_step.scala:15[0m[0m
+[0m[[0minfo[0m] [0m[1A    [36mWhen [0m[36mthe expected event is raised[0m                        [90m# aures_step.scala:15[0m[0m
+[0m[[0minfo[0m] [0m    [90mThen [0m[90mI verify that the message is retrievable from Aures[0m [90m# aures_step.scala:21[0m[0m
+[0m[[0minfo[0m] [0m[1A    [36mThen [0m[36mI verify that the message is retrievable from Aures[0m [90m# aures_step.scala:21[0m[0m
 [0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mcucumber.runtime.PendingException: TODO: implement me[0m
+[0m[[0minfo[0m] [0m	at features.aures_step$$anonfun$1.apply(aures_step.scala:12)[0m
+[0m[[0minfo[0m] [0m	at features.aures_step$$anonfun$1.apply(aures_step.scala:10)[0m
+[0m[[0minfo[0m] [0m	at cucumber.api.scala.ScalaDsl$StepBody$$anonfun$apply$23.applyOrElse(ScalaDsl.scala:55)[0m
+[0m[[0minfo[0m] [0m	at cucumber.api.scala.ScalaDsl$StepBody$$anonfun$apply$23.applyOrElse(ScalaDsl.scala:55)[0m
+[0m[[0minfo[0m] [0m	at scala.runtime.AbstractPartialFunction.apply(AbstractPartialFunction.scala:33)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.scala.ScalaStepDefinition.execute(ScalaStepDefinition.scala:27)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:38)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.Runtime.runStep(Runtime.java:267)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.model.StepContainer.runStep(StepContainer.java:44)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.model.StepContainer.runSteps(StepContainer.java:39)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:36)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.model.CucumberFeature.run(CucumberFeature.java:112)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.Runtime.run(Runtime.java:105)[0m
+[0m[[0minfo[0m] [0m	at cucumber.runtime.Runtime.run(Runtime.java:93)[0m
+[0m[[0minfo[0m] [0m	at cucumber.api.cli.Main.run(Main.java:20)[0m
+[0m[[0minfo[0m] [0m	at cucumber.api.cli.Main.main(Main.java:12)[0m
+[0m[[0minfo[0m] [0m	at ✽.Given I create an event listener(aures.feature:4)[0m
 [0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mYou can implement missing steps with the snippets below:[0m
-[0m[[0minfo[0m] [0m[0m
-[0m[[0minfo[0m] [0mGiven("""^I create an event listener$"""){ () =>[0m
-[0m[[0minfo[0m] [0m  //// Express the Regexp above with the code you wish you had[0m
-[0m[[0minfo[0m] [0m  throw new PendingException()[0m
-[0m[[0minfo[0m] [0m}[0m
-[0m[[0minfo[0m] [0mWhen("""^the expected event is raised$"""){ () =>[0m
-[0m[[0minfo[0m] [0m  //// Express the Regexp above with the code you wish you had[0m
-[0m[[0minfo[0m] [0m  throw new PendingException()[0m
-[0m[[0minfo[0m] [0m}[0m
-[0m[[0minfo[0m] [0mThen("""^I verify that the message is retrievable from Aures$"""){ () =>[0m
-[0m[[0minfo[0m] [0m  //// Express the Regexp above with the code you wish you had[0m
-[0m[[0minfo[0m] [0m  throw new PendingException()[0m
-[0m[[0minfo[0m] [0m}[0m

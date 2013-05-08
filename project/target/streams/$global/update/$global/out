@@ -12897,7 +12897,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#cache;0.12.2!cache.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#test-agent;0.12.2!test-agent.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-tools.testing#test-interface;0.5!test-interface.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 4508ms :: artifacts dl 72ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 3649ms :: artifacts dl 91ms[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 62[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-plugin;2.1.0 / Number of dependencies = 18[0m
 [0m[[0mdebug[0m] [0mSort dependencies of : play#sbt-link;2.1.0 / Number of dependencies = 1[0m
@@ -15102,5 +15102,5 @@
 [0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT docs produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/docs-resolved.xml[0m
 [0m[[0mdebug[0m] [0mNbr of module to sort : 0[0m
 [0m[[0mdebug[0m] [0m	report for default#default-e93dfb;0.1-SNAPSHOT pom produced in /Users/kostasmamalis/development/visa/messageListener/aures/project/target/resolution-cache/reports/default-default-e93dfb/pom-resolved.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (4508ms resolve - 72ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (3649ms resolve - 91ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

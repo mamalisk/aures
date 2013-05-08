@@ -12,7 +12,6 @@ import play.api.i18n._
 import play.api.mvc._
 import play.api.data._
 import views.html._
-import org.bson.types.ObjectId
 /**/
 object main extends BaseScalaTemplate[play.api.templates.Html,Format[play.api.templates.Html]](play.api.templates.HtmlFormat) with play.api.templates.Template2[String,Html,play.api.templates.Html] {
 
@@ -47,11 +46,11 @@ Seq[Any](format.raw/*1.32*/("""
 }
                 /*
                     -- GENERATED --
-                    DATE: Wed May 08 14:05:58 BST 2013
-                    SOURCE: /Users/kostasmamalis/development/visa/messageListener/aures/app/views/main.scala.html
+                    DATE: Tue May 07 11:39:08 BST 2013
+                    SOURCE: /Users/kostasmamalis/development/visa/aures/app/views/main.scala.html
                     HASH: 27f8edb770da492742673119002f624cb384b42b
-                    MATRIX: 540->1|647->31|735->84|761->89|858->151|872->157|927->191|1023->252|1037->258|1090->290|1151->315|1166->321|1233->366|1336->433|1365->440
-                    LINES: 20->1|23->1|29->7|29->7|30->8|30->8|30->8|31->9|31->9|31->9|32->10|32->10|32->10|35->13|35->13
+                    MATRIX: 509->1|616->31|704->84|730->89|827->151|841->157|896->191|992->252|1006->258|1059->290|1120->315|1135->321|1202->366|1305->433|1334->440
+                    LINES: 19->1|22->1|28->7|28->7|29->8|29->8|29->8|30->9|30->9|30->9|31->10|31->10|31->10|34->13|34->13
                     -- GENERATED --
                 */
             
